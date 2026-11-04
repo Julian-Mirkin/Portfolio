@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Julián Mirkin: diseño, desarrollo y proyectos digitales."
+    />
+    <title>Julián Mirkin — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">
+        <span class="brand-mark">JM</span>
+        <span class="brand-name">PORTFOLIO</span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a class="active" href="#inicio">Inicio</a>
+        <a href="#formacion">Formación</a>
+        <a href="#macabi">Macabi</a>
+        <a href="#inversiones">Inversiones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Hola, soy</p>
+          <h1>Julián<br /><span>Mirkin</span></h1>
+          <a class="outline-button" href="#formacion">Conocé sobre mí <span>↓</span></a>
+        </div>
+        <div class="hero-image portrait" role="img" aria-label="Retrato de Julián Mirkin"></div>
+      </section>
+
+      <section id="formacion" class="section-shell section-panel frame-tall">
+        <div class="section-heading">
+          <p class="eyebrow">02 — Formación</p>
+          <h2>De la idea<br /><em>al proyecto.</em></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-pcity">
+            <div class="card-content">
+              <span class="card-number">01</span>
+              <h3>PCity</h3>
+              <a href="#macabi">Ver proyecto <span>↗</span></a>
+            </div>
+            <div class="mini-window">
+              <b>Bienvenido a PCity</b>
+              <div><i></i><i></i><i></i></div>
+              <div class="window-lines"></div>
+            </div>
+          </article>
+          <article class="project-card project-kronos">
+            <div class="card-content">
+              <span class="card-number">02</span>
+              <h3>Kronos</h3>
+              <a href="#inversiones">Ver proyecto <span>↗</span></a>
+            </div>
+            <div class="mini-window light">
+              <b>Kronos</b>
+              <div class="chart"><span></span><span></span><span></span><span></span></div>
+            </div>
+          </article>
+          <article class="project-card project-traidx">
+            <div class="card-content">
+              <span class="card-number">03</span>
+              <h3>TraidX</h3>
+              <a href="#macabi">Ver proyecto <span>↗</span></a>
+            </div>
+            <div class="mini-window dark">
+              <b>TraidX</b>
+              <div class="dashboard"><i></i><i></i><i></i></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experiencias" class="section-shell experiences frame-tall">
+        <div class="section-heading">
+          <p class="eyebrow">01 — Experiencias</p>
+          <h2>Aprender,<br /><em>compartir.</em></h2>
+        </div>
+        <div class="experience-grid">
+          <div class="experience-photo photo-group" role="img" aria-label="Experiencia en comunidad"></div>
+          <div class="experience-photo photo-event" role="img" aria-label="Evento y aprendizaje"></div>
+        </div>
+      </section>
+
+      <section id="macabi" class="section-shell split-section frame-tall">
+        <div>
+          <p class="eyebrow">03 — Macabi</p>
+          <h2>Diseñar para<br /><em>conectar.</em></h2>
+          <a class="outline-button" href="#inversiones">Conocé el proyecto <span>↗</span></a>
+        </div>
+        <div class="macabi-art" aria-label="Comunidad Macabi">
+          <div class="sun"></div>
+          <div class="people"><span>✦</span><span>✦</span><span>✦</span><span>✦</span></div>
+          <strong>macabi</strong>
+        </div>
+      </section>
+
+      <section id="inversiones" class="section-shell section-panel investments frame-tall">
+        <div class="section-heading compact">
+          <p class="eyebrow">04 — Inversiones</p>
+          <h2>Ideas que<br /><em>crecen.</em></h2>
+        </div>
+        <div class="investment-layout">
+          <div class="quote-card"></div>
+          <div class="metrics-card">
+            <div><strong>01</strong><span>Inversiones</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact-section section-shell">
+        <div class="contact-copy">
+          <p class="eyebrow">05 — Contacto</p>
+          <h2>Hablemos.</h2>
+          <a class="outline-button" href="mailto:hola@julianmirkin.com">Email <span>↗</span></a>
+          <a class="outline-button" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© 2026 Julián Mirkin</span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
