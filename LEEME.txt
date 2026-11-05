@@ -1,0 +1,9 @@
+PORTFOLIO JULIÁN MIRKIN
+----------------------
+1. Descomprimí la carpeta completa.
+2. Abrí portfolio-julian-final en VS Code.
+3. Ejecutá index.html con Live Server.
+
+No muevas la carpeta fotos: las rutas del HTML apuntan a ella.
+Se agregó fotos/basket3.png y se reorganizó la sección Macabi para respetar la composición de referencia.
+Los enlaces de las tarjetas llevan a las secciones individuales de PCity, Kronos y TraidX.
